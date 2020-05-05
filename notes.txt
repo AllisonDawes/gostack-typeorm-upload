@@ -1,0 +1,12 @@
+-criação de uma migration para fazer a transação financeira:
+
+-migration da tabela das transações:
+yarn typeorm migration:create -n CreateTransaction
+
+-migration da tabela das categorias:
+yarn typeorm migration:create -n CreateCategories
+
+-migration para adicionar coluna category_id na tabela transactions:
+yarn typeorm migration:create -n AddCategoryIdToTransactions
+
+
